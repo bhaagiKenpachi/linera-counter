@@ -6,7 +6,7 @@ edition = "2021"
 
 [dependencies]
 async-graphql = { version = "=7.0.2", default-features = false }
-bcs.workspace = true
+bcs = "0.1.3"
 futures = "0.3.24"
 linera-sdk = { git = "https://github.com/jvff/linera-protocol", rev = "26a5299" }
 serde_json = "1.0.137"
@@ -16,7 +16,6 @@ linera-sdk = { git = "https://github.com/jvff/linera-protocol", rev = "26a5299",
 tokio = { version = "1.39.3", features = ["rt", "sync"] }
 
 [dev-dependencies]
-assert_matches.workspace = true
 linera-sdk = { git = "https://github.com/jvff/linera-protocol", rev = "26a5299", features = ["test"] }
 
 [[bin]]
